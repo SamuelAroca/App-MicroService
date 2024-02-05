@@ -28,7 +28,7 @@ public class CountryController {
         return ResponseEntity.ok(countryService.findById(idCountry));
     }
 
-    @GetMapping("/findById/{name}")
+    @GetMapping("/findByName/{name}")
     public ResponseEntity<Long> findByName(@PathVariable String name) {
         return ResponseEntity.ok(countryService.findByName(name));
     }
