@@ -19,7 +19,6 @@
 
   <modules>
     <module>UserMicroService</module>
-    <module>ConfigMicroService</module>
     <module>EurekaMicroService</module>
     <module>GatewayMicroService</module>
     <module>CountryMicroService</module>
